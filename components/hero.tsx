@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 export function Hero() {
   const handleDownloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/Mridula_Mahendran_Resume.pdf"
+    link.href = "/resume.pdf"
     link.download = "Mridula_Mahendran_Resume.pdf"
     document.body.appendChild(link)
     link.click()
@@ -47,10 +47,30 @@ export function Hero() {
           Mridula Mahendran
         </motion.h1>
         
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.55 }}
+          className="flex flex-wrap items-center justify-center gap-2.5 mb-8"
+        >
+          {[
+            "Open to Relocation Anywhere in the U.S.",
+            "U.S. Work Authorized",
+            "Requires H1-B Sponsorship",
+          ].map((tag) => (
+            <span
+              key={tag}
+              className="px-3.5 py-1.5 text-[11px] font-medium uppercase tracking-[0.1em] text-muted-foreground border border-border rounded-full"
+            >
+              {tag}
+            </span>
+          ))}
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          transition={{ duration: 0.6, delay: 0.7 }}
           className="text-lg md:text-xl text-muted-foreground mb-12 max-w-lg mx-auto font-light leading-relaxed"
         >
           Software Engineer crafting elegant solutions through clean code and thoughtful design.
