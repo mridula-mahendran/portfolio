@@ -84,7 +84,7 @@ export function Hero() {
           <Button
             onClick={handleDownloadResume}
             variant="outline"
-            className="gap-3 px-8 py-6 text-sm tracking-wide border-foreground/20 hover:bg-foreground hover:text-background transition-all duration-300 bg-transparent"
+            className="gap-3 px-8 py-6 text-sm tracking-wide border-foreground/20 hover:bg-foreground hover:text-background dark:hover:text-white transition-all duration-300 bg-transparent"
             size="lg"
           >
             <Download className="h-4 w-4" />
