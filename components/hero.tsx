@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 export function Hero() {
   const handleDownloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/resume.pdf"
+    link.href = "/Mridula_Mahendran_Resume.pdf"
     link.download = "Mridula_Mahendran_Resume.pdf"
     document.body.appendChild(link)
     link.click()
