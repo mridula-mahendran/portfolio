@@ -56,7 +56,6 @@ export function Hero() {
           {[
             "Open to Relocation Anywhere in the U.S.",
             "U.S. Work Authorized",
-            "Requires H1-B Sponsorship",
           ].map((tag) => (
             <span
               key={tag}
