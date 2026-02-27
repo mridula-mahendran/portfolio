@@ -20,7 +20,7 @@ const beyondCode = [
   },
   {
     icon: Music,
-    title: "Singer (Shy Edition)",
+    title: "Singer",
     description:
       "I trained in Carnatic music for years and while I don't practice formally anymore, you'll definitely catch me humming or singing out loud sometimes.",
   },
