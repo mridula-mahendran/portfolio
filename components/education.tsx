@@ -15,7 +15,7 @@ const education = [
       "Program Structure and Algorithms",
       "Software Quality Control and Management",
       "Application Engineering & Development",
-      "AI Engineering and Applications",
+      "Prompt Engineering and Generative AI",
     ],
   },
   {

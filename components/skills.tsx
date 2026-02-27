@@ -18,11 +18,15 @@ const skillCategories = [
   },
   {
     category: "Cloud & DevOps",
-    skills: ["AWS (EC2, S3, RDS)", "GCP", "Terraform", "HashiCorp Packer", "GitHub Actions"],
+    skills: ["AWS (EC2, S3, RDS)", "Google Cloud Platform (GCP)", "Terraform", "HashiCorp Packer", "GitHub Actions"],
   },
   {
     category: "Tools",
-    skills: ["Git", "Github", "Postman", "Bruno", "VS Code", "Eclipse", "Jupyter Notebook", "Spring Tool Suite"],
+    skills: ["Git", "Github", "Github Copilot", "Claude Code", "Postman", "Bruno", "VS Code", "Eclipse", "Jupyter Notebook", "Spring Tool Suite"],
+  },
+  {
+    category: "Other",
+    skills: ["Object-Oriented Programming (OOP)", "Data Structures and Algorithms", "RESTful APIs", "Prompt Engineering"],
   },
 ]
 
