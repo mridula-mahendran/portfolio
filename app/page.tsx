@@ -9,6 +9,7 @@ import { Education } from "@/components/education"
 import { Skills } from "@/components/skills"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { BackToTop } from "@/components/back-to-top"
 
 export default function Portfolio() {
   return (
@@ -24,6 +25,7 @@ export default function Portfolio() {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   )
 }
