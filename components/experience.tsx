@@ -10,10 +10,11 @@ const experiences = [
     location: "Plano, Texas",
     period: "Jun 2025 - Dec 2025",
     highlights: [
-      "Enhanced TIA Portal's interactive features using ReactJS and Node.js, boosting system performance by 15%",
-      "Designed RESTful APIs with Swagger/OpenAPI in a microservices architecture and established CI/CD pipelines",
-      "Optimized multi-screen SCADA/HMI systems for real-time visualization of 25+ electrical parameters",
-      "Led Agile execution including stand-ups, sprint planning, demos, and code reviews",
+      "Developed reusable HMI/SCADA components for an industrial automation platform using Angular, TypeScript, and SIMPL, resolving 30+ UI defects during QA cycles and ensuring consistent rendering across multi-resolution displays",
+      "Implemented REST API endpoints using Node.js with Express and Prisma ORM, adding input validation (Zod), pagination, and role-based access checks across 15+ routes for an HMI asset configuration management service",
+      "Built the document ingestion pipeline for a RAG-based documentation assistant using Python, LangChain, pdfplumber, and Camelot, processing 120+ technical documents with text and table extraction into ChromaDB embeddings",
+      "Containerized the RAG pipeline and FastAPI backend using Docker, deployed to AWS ECS Fargate with S3 for document storage and CloudWatch for logging, reducing manual deployment steps from 12 to a single command",
+      "Established GitLab CI/CD pipelines on code.siemens.com for the team's Python services, automating linting, unit tests (pytest), Docker image builds, and deployments to dev/staging environments, cutting build-to-deploy time from 15 minutes to under 5 minutes",
     ],
   },
   {
@@ -22,9 +23,11 @@ const experiences = [
     location: "Chennai, India",
     period: "Nov 2023 - Aug 2024",
     highlights: [
-      "Developed Spring Boot-based Customer Account Management microservice with RESTful APIs",
-      "Designed and optimized complex MySQL schemas with indexes and execution plan analysis",
-      "Integrated OAuth2 and JWT-based authentication across microservices for secure access control",
+      "Engineered customer-facing features for the online banking portal using React 18, TypeScript, and Redux Toolkit, including transaction history redesign with advanced filtering and CSV export for 100K+ monthly active users",
+      "Implemented API enhancements for the payments module using Spring Boot 3 and Spring Data JPA, adding input validation and standardized error handling that reduced invalid request errors in QA by 30%",
+      "Participated in migrating three legacy SOAP-based services to REST APIs on Spring Boot, mapping existing WSDL contracts to OpenAPI 3.0 specifications and coordinating with downstream consumer teams during the cutover",
+      "Monitored application health across 8 microservices using AppDynamics and Grafana, configuring 12+ alerts based on team-defined SLOs that helped detect a connection pool exhaustion issue before customer impact",
+      "Contributed to bi-weekly client demos and sprint reviews, documented API contracts in Confluence, and supported knowledge transfer sessions during a team expansion from 12 to 18 engineers",
     ],
   },
 ]
