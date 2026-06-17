@@ -8,6 +8,7 @@ export function Hero() {
   const handleDownloadResume = () => {
     const link = document.createElement("a")
     link.href = "/MridulaMahendran-Resume.pdf" 
+    link.target = "_blank"
     // link.download = "Mridula_Mahendran_Resume.pdf" 
     document.body.appendChild(link)
     link.click()
